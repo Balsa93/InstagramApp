@@ -27,6 +27,20 @@
 		24521ACF297FD094001CE911 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24521ACE297FD094001CE911 /* SearchResultViewController.swift */; };
 		24521AD1297FD0C2001CE911 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24521AD0297FD0C2001CE911 /* PostEditorViewController.swift */; };
 		24521AD3297FD0DE001CE911 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24521AD2297FD0DE001CE911 /* PublishPostViewController.swift */; };
+		24521AD8297FE0B9001CE911 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24521AD7297FE0B9001CE911 /* DatabaseManager.swift */; };
+		24521ADA297FE19E001CE911 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24521AD9297FE19E001CE911 /* AuthManager.swift */; };
+		24521ADC297FE210001CE911 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24521ADB297FE210001CE911 /* StorageManager.swift */; };
+		247E244F297FE4E0007F2C6E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E244E297FE4E0007F2C6E /* Extensions.swift */; };
+		247E2451297FEB2E007F2C6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E2450297FEB2E007F2C6E /* Constants.swift */; };
+		247E24552980116E007F2C6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 247E24542980116E007F2C6E /* GoogleService-Info.plist */; };
+		247E245729805094007F2C6E /* SettingsCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E245629805094007F2C6E /* SettingsCellModel.swift */; };
+		247E245A29806145007F2C6E /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E245929806145007F2C6E /* IGFeedPostTableViewCell.swift */; };
+		247E245D2980626B007F2C6E /* IGfeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E245C2980626B007F2C6E /* IGfeedPostHeaderTableViewCell.swift */; };
+		247E245F29806280007F2C6E /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E245E29806280007F2C6E /* IGFeedPostActionsTableViewCell.swift */; };
+		247E24612980629E007F2C6E /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E24602980629E007F2C6E /* IGFeedPostGeneralTableViewCell.swift */; };
+		247E2463298063E1007F2C6E /* UserPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E2462298063E1007F2C6E /* UserPost.swift */; };
+		247E24652980646D007F2C6E /* UserPostType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E24642980646D007F2C6E /* UserPostType.swift */; };
+		247E2467298068E3007F2C6E /* SettingsUrlType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E2466298068E3007F2C6E /* SettingsUrlType.swift */; };
 		6EAAB9C5B669DFFB39D042FB /* Pods_InstagramApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AC43E54ED9D00BAA8A8E0B /* Pods_InstagramApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +67,20 @@
 		24521ACE297FD094001CE911 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		24521AD0297FD0C2001CE911 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		24521AD2297FD0DE001CE911 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		24521AD7297FE0B9001CE911 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		24521AD9297FE19E001CE911 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		24521ADB297FE210001CE911 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		247E244E297FE4E0007F2C6E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		247E2450297FEB2E007F2C6E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		247E24542980116E007F2C6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		247E245629805094007F2C6E /* SettingsCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCellModel.swift; sourceTree = "<group>"; };
+		247E245929806145007F2C6E /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		247E245C2980626B007F2C6E /* IGfeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGfeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		247E245E29806280007F2C6E /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		247E24602980629E007F2C6E /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		247E2462298063E1007F2C6E /* UserPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPost.swift; sourceTree = "<group>"; };
+		247E24642980646D007F2C6E /* UserPostType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostType.swift; sourceTree = "<group>"; };
+		247E2466298068E3007F2C6E /* SettingsUrlType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUrlType.swift; sourceTree = "<group>"; };
 		A6AC43E54ED9D00BAA8A8E0B /* Pods_InstagramApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54F690878F5711AC0836F42 /* Pods-InstagramApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramApp.debug.xcconfig"; path = "Target Support Files/Pods-InstagramApp/Pods-InstagramApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F0D317FD7241A45AE716974C /* Pods-InstagramApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramApp.release.xcconfig"; path = "Target Support Files/Pods-InstagramApp/Pods-InstagramApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +131,7 @@
 		24521AB0297FCE00001CE911 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				247E245829806129007F2C6E /* Cells */,
 				24521AB1297FCE08001CE911 /* Storyboards */,
 				24521AA5297FCDF4001CE911 /* Assets.xcassets */,
 			);
@@ -132,6 +161,12 @@
 			children = (
 				24521A9C297FCDF2001CE911 /* AppDelegate.swift */,
 				24521A9E297FCDF2001CE911 /* SceneDelegate.swift */,
+				24521AD7297FE0B9001CE911 /* DatabaseManager.swift */,
+				24521AD9297FE19E001CE911 /* AuthManager.swift */,
+				24521ADB297FE210001CE911 /* StorageManager.swift */,
+				247E244E297FE4E0007F2C6E /* Extensions.swift */,
+				247E2450297FEB2E007F2C6E /* Constants.swift */,
+				247E24542980116E007F2C6E /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -139,6 +174,10 @@
 		24521AB4297FCE2B001CE911 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				247E245629805094007F2C6E /* SettingsCellModel.swift */,
+				247E2462298063E1007F2C6E /* UserPost.swift */,
+				247E24642980646D007F2C6E /* UserPostType.swift */,
+				247E2466298068E3007F2C6E /* SettingsUrlType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,14 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				24521ABF297FCF4B001CE911 /* Onboarding */,
-				24521AC4297FCFF8001CE911 /* PostViewController.swift */,
-				24521AC6297FD023001CE911 /* EditProfileViewController.swift */,
-				24521AC8297FD03C001CE911 /* SettingsViewController.swift */,
-				24521ACA297FD059001CE911 /* ListViewController.swift */,
-				24521ACC297FD077001CE911 /* SearchViewController.swift */,
-				24521ACE297FD094001CE911 /* SearchResultViewController.swift */,
-				24521AD0297FD0C2001CE911 /* PostEditorViewController.swift */,
-				24521AD2297FD0DE001CE911 /* PublishPostViewController.swift */,
+				24521AD6297FDF4F001CE911 /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -180,13 +212,46 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		24521AD6297FDF4F001CE911 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				24521AC4297FCFF8001CE911 /* PostViewController.swift */,
+				24521AC6297FD023001CE911 /* EditProfileViewController.swift */,
+				24521AC8297FD03C001CE911 /* SettingsViewController.swift */,
+				24521ACA297FD059001CE911 /* ListViewController.swift */,
+				24521ACC297FD077001CE911 /* SearchViewController.swift */,
+				24521ACE297FD094001CE911 /* SearchResultViewController.swift */,
+				24521AD0297FD0C2001CE911 /* PostEditorViewController.swift */,
+				24521AD2297FD0DE001CE911 /* PublishPostViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		247E245829806129007F2C6E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				247E245B2980624C007F2C6E /* HomeFeed */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		247E245B2980624C007F2C6E /* HomeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				247E245929806145007F2C6E /* IGFeedPostTableViewCell.swift */,
+				247E245C2980626B007F2C6E /* IGfeedPostHeaderTableViewCell.swift */,
+				247E245E29806280007F2C6E /* IGFeedPostActionsTableViewCell.swift */,
+				247E24602980629E007F2C6E /* IGFeedPostGeneralTableViewCell.swift */,
+			);
+			path = HomeFeed;
+			sourceTree = "<group>";
+		};
 		65DB559500CF5BA167030D3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				E54F690878F5711AC0836F42 /* Pods-InstagramApp.debug.xcconfig */,
 				F0D317FD7241A45AE716974C /* Pods-InstagramApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24521AA9297FCDF4001CE911 /* LaunchScreen.storyboard in Resources */,
+				247E24552980116E007F2C6E /* GoogleService-Info.plist in Resources */,
 				24521AA6297FCDF4001CE911 /* Assets.xcassets in Resources */,
 				24521AA4297FCDF2001CE911 /* Main.storyboard in Resources */,
 			);
@@ -314,20 +380,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				24521AC7297FD023001CE911 /* EditProfileViewController.swift in Sources */,
+				247E2451297FEB2E007F2C6E /* Constants.swift in Sources */,
 				24521AB6297FCEA7001CE911 /* ExploreViewController.swift in Sources */,
+				247E245F29806280007F2C6E /* IGFeedPostActionsTableViewCell.swift in Sources */,
 				24521AD3297FD0DE001CE911 /* PublishPostViewController.swift in Sources */,
 				24521AB8297FCEC7001CE911 /* CameraViewController.swift in Sources */,
 				24521AA1297FCDF2001CE911 /* HomeViewController.swift in Sources */,
+				247E245729805094007F2C6E /* SettingsCellModel.swift in Sources */,
+				247E24612980629E007F2C6E /* IGFeedPostGeneralTableViewCell.swift in Sources */,
+				247E2463298063E1007F2C6E /* UserPost.swift in Sources */,
+				247E2467298068E3007F2C6E /* SettingsUrlType.swift in Sources */,
+				247E24652980646D007F2C6E /* UserPostType.swift in Sources */,
 				24521AC3297FCFA6001CE911 /* RegistrationViewController.swift in Sources */,
 				24521AD1297FD0C2001CE911 /* PostEditorViewController.swift in Sources */,
+				24521ADC297FE210001CE911 /* StorageManager.swift in Sources */,
 				24521AC5297FCFF8001CE911 /* PostViewController.swift in Sources */,
+				24521AD8297FE0B9001CE911 /* DatabaseManager.swift in Sources */,
+				247E245D2980626B007F2C6E /* IGfeedPostHeaderTableViewCell.swift in Sources */,
 				24521ABA297FCEE6001CE911 /* NotificationsViewController.swift in Sources */,
 				24521ACF297FD094001CE911 /* SearchResultViewController.swift in Sources */,
 				24521AC1297FCF64001CE911 /* LoginViewController.swift in Sources */,
+				247E244F297FE4E0007F2C6E /* Extensions.swift in Sources */,
 				24521ACD297FD077001CE911 /* SearchViewController.swift in Sources */,
 				24521ABC297FCEFF001CE911 /* ProfileViewController.swift in Sources */,
+				24521ADA297FE19E001CE911 /* AuthManager.swift in Sources */,
 				24521A9D297FCDF2001CE911 /* AppDelegate.swift in Sources */,
 				24521A9F297FCDF2001CE911 /* SceneDelegate.swift in Sources */,
+				247E245A29806145007F2C6E /* IGFeedPostTableViewCell.swift in Sources */,
 				24521ACB297FD059001CE911 /* ListViewController.swift in Sources */,
 				24521AC9297FD03C001CE911 /* SettingsViewController.swift in Sources */,
 			);
@@ -483,8 +562,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -513,8 +592,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
