@@ -19,7 +19,8 @@
 		240CB28C29818F95006DCD45 /* UserRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240CB28B29818F95006DCD45 /* UserRelationship.swift */; };
 		240CB28E29819424006DCD45 /* NoNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240CB28D29819424006DCD45 /* NoNotificationsView.swift */; };
 		240CB29129819765006DCD45 /* NotificationFollowEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240CB29029819765006DCD45 /* NotificationFollowEventTableViewCell.swift */; };
-		240CB29329819797006DCD45 /* NotificationsLikeEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240CB29229819797006DCD45 /* NotificationsLikeEventTableViewCell.swift */; };
+		240CB29329819797006DCD45 /* NotificationLikeEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240CB29229819797006DCD45 /* NotificationLikeEventTableViewCell.swift */; };
+		240CB2952981B72E006DCD45 /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240CB2942981B72E006DCD45 /* UserNotification.swift */; };
 		24521A9D297FCDF2001CE911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24521A9C297FCDF2001CE911 /* AppDelegate.swift */; };
 		24521A9F297FCDF2001CE911 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24521A9E297FCDF2001CE911 /* SceneDelegate.swift */; };
 		24521AA1297FCDF2001CE911 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24521AA0297FCDF2001CE911 /* HomeViewController.swift */; };
@@ -71,7 +72,8 @@
 		240CB28B29818F95006DCD45 /* UserRelationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRelationship.swift; sourceTree = "<group>"; };
 		240CB28D29819424006DCD45 /* NoNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNotificationsView.swift; sourceTree = "<group>"; };
 		240CB29029819765006DCD45 /* NotificationFollowEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFollowEventTableViewCell.swift; sourceTree = "<group>"; };
-		240CB29229819797006DCD45 /* NotificationsLikeEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsLikeEventTableViewCell.swift; sourceTree = "<group>"; };
+		240CB29229819797006DCD45 /* NotificationLikeEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationLikeEventTableViewCell.swift; sourceTree = "<group>"; };
+		240CB2942981B72E006DCD45 /* UserNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotification.swift; sourceTree = "<group>"; };
 		24521A99297FCDF2001CE911 /* InstagramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24521A9C297FCDF2001CE911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24521A9E297FCDF2001CE911 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				240CB29029819765006DCD45 /* NotificationFollowEventTableViewCell.swift */,
-				240CB29229819797006DCD45 /* NotificationsLikeEventTableViewCell.swift */,
+				240CB29229819797006DCD45 /* NotificationLikeEventTableViewCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -225,13 +227,14 @@
 				240CB28529815A9B006DCD45 /* User.swift */,
 				247E2462298063E1007F2C6E /* UserPost.swift */,
 				240CB28729815B39006DCD45 /* UserCount.swift */,
+				240CB28B29818F95006DCD45 /* UserRelationship.swift */,
+				240CB2942981B72E006DCD45 /* UserNotification.swift */,
 				240CB2812981546C006DCD45 /* PostLike.swift */,
 				240CB27F29815438006DCD45 /* PostComment.swift */,
 				240CB28329815509006DCD45 /* CommentLike.swift */,
 				247E246C29813913007F2C6E /* EditProfileFormModel.swift */,
 				247E245629805094007F2C6E /* SettingsCellModel.swift */,
 				247E2466298068E3007F2C6E /* SettingsUrlType.swift */,
-				240CB28B29818F95006DCD45 /* UserRelationship.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 			files = (
 				24521AC7297FD023001CE911 /* EditProfileViewController.swift in Sources */,
 				247E2451297FEB2E007F2C6E /* Constants.swift in Sources */,
+				240CB2952981B72E006DCD45 /* UserNotification.swift in Sources */,
 				24521AB6297FCEA7001CE911 /* ExploreViewController.swift in Sources */,
 				247E245F29806280007F2C6E /* IGFeedPostActionsTableViewCell.swift in Sources */,
 				240CB27E2981437D006DCD45 /* ProfileTabsCollectionReusableView.swift in Sources */,
@@ -473,7 +477,7 @@
 				24521ADA297FE19E001CE911 /* AuthManager.swift in Sources */,
 				240CB2822981546C006DCD45 /* PostLike.swift in Sources */,
 				240CB28C29818F95006DCD45 /* UserRelationship.swift in Sources */,
-				240CB29329819797006DCD45 /* NotificationsLikeEventTableViewCell.swift in Sources */,
+				240CB29329819797006DCD45 /* NotificationLikeEventTableViewCell.swift in Sources */,
 				24521A9D297FCDF2001CE911 /* AppDelegate.swift in Sources */,
 				24521A9F297FCDF2001CE911 /* SceneDelegate.swift in Sources */,
 				247E246D29813913007F2C6E /* EditProfileFormModel.swift in Sources */,
