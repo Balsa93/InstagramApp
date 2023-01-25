@@ -7,6 +7,7 @@ target 'InstagramApp' do
 
   # Pods for InstagramApp
 pod 'Appirater'
+pod 'SDWebImage'
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
