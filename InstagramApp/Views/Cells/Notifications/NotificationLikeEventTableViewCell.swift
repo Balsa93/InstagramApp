@@ -25,6 +25,7 @@ class NotificationLikeEventTableViewCell: UITableViewCell {
         imageView.contentMode = .scaleAspectFill
         return imageView
     }()
+    
     private let label: UILabel = {
         let label = UILabel()
         label.textColor = .label
@@ -32,6 +33,7 @@ class NotificationLikeEventTableViewCell: UITableViewCell {
         label.text = "@Joe liked your photo"
         return label
     }()
+    
     private let postButton: UIButton = {
         let button = UIButton()
         button.setBackgroundImage(UIImage(named: "mountains"), for: .normal)

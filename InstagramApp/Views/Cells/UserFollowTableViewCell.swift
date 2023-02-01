@@ -24,6 +24,7 @@ class UserFollowTableViewCell: UITableViewCell {
         imageView.backgroundColor = .secondarySystemBackground
         return imageView
     }()
+    
     private let nameLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 1
@@ -31,6 +32,7 @@ class UserFollowTableViewCell: UITableViewCell {
         label.text = "Joe"
         return label
     }()
+    
     private let usernameLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 1
@@ -39,6 +41,7 @@ class UserFollowTableViewCell: UITableViewCell {
         label.textColor = .secondaryLabel
         return label
     }()
+    
     private let followButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .link
@@ -103,7 +106,6 @@ class UserFollowTableViewCell: UITableViewCell {
             followButton.setTitleColor(.white, for: .normal)
             followButton.backgroundColor = .link
             followButton.layer.borderWidth = 0
-//            followButton.layer.borderColor = UIColor.clear.cgColor
         }
     }
 }

@@ -24,6 +24,7 @@ class NotificationFollowEventTableViewCell: UITableViewCell {
         imageView.contentMode = .scaleAspectFill
         return imageView
     }()
+    
     private let label: UILabel = {
         let label = UILabel()
         label.textColor = .label
@@ -31,6 +32,7 @@ class NotificationFollowEventTableViewCell: UITableViewCell {
         label.text = "@kanyeWest followed you."
         return label
     }()
+    
     private let followButton: UIButton = {
         let button = UIButton()
         button.layer.cornerRadius = 4

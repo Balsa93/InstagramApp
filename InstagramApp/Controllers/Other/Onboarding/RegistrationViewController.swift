@@ -23,6 +23,7 @@ class RegistrationViewController: UIViewController {
         field.layer.borderColor = UIColor.secondaryLabel.cgColor
         return field
     }()
+    
     private let emailField: UITextField = {
         let field = UITextField()
         field.placeholder = "Email address..."
@@ -38,6 +39,7 @@ class RegistrationViewController: UIViewController {
         field.layer.borderColor = UIColor.secondaryLabel.cgColor
         return field
     }()
+    
     private let passwordField: UITextField = {
         let field = UITextField()
         field.placeholder = "Password..."
@@ -54,6 +56,7 @@ class RegistrationViewController: UIViewController {
         field.layer.borderColor = UIColor.secondaryLabel.cgColor
         return field
     }()
+    
     private let registerButton: UIButton = {
         let button = UIButton()
         button.setTitle("Sign Up", for: .normal)
@@ -109,7 +112,6 @@ extension RegistrationViewController: UITextFieldDelegate {
         } else {
             didTapRegister()
         }
-        
         return true
     }
 }

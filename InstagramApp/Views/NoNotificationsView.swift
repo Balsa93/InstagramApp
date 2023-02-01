@@ -16,6 +16,7 @@ class NoNotificationsView: UIView {
         label.numberOfLines = 1
         return label
     }()
+    
     private let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.tintColor = .secondaryLabel

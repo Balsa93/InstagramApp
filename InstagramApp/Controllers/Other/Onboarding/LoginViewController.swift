@@ -25,6 +25,7 @@ class LoginViewController: UIViewController {
         field.layer.borderColor = UIColor.secondaryLabel.cgColor
         return field
     }()
+    
     private let passwordField: UITextField = {
         let field = UITextField()
         field.placeholder = "Password..."
@@ -41,6 +42,7 @@ class LoginViewController: UIViewController {
         field.layer.borderColor = UIColor.secondaryLabel.cgColor
         return field
     }()
+    
     private let loginButton: UIButton = {
         let button = UIButton()
         button.setTitle("Login", for: .normal)
@@ -50,25 +52,28 @@ class LoginViewController: UIViewController {
         button.setTitleColor(.white, for: .normal)
         return button
     }()
+    
     private let termsButton: UIButton = {
         let button = UIButton()
         button.setTitle("Terms", for: .normal)
         button.setTitleColor(.secondaryLabel, for: .normal)
         return button
     }()
+    
     private let privacyButton: UIButton = {
         let button = UIButton()
         button.setTitle("Privacy Policy", for: .normal)
         button.setTitleColor(.secondaryLabel, for: .normal)
         return button
-
     }()
+    
     private let createAccountButton: UIButton = {
         let button = UIButton()
         button.setTitle("New User? Create an Account", for: .normal)
         button.setTitleColor(.label, for: .normal)
         return button
     }()
+    
     private let headView: UIView = {
         let header = UIView()
         header.clipsToBounds = true

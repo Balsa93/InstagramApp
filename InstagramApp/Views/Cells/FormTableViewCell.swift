@@ -22,6 +22,7 @@ class FormTableViewCell: UITableViewCell {
         label.numberOfLines = 1
         return label
     }()
+    
     private let textField: UITextField = {
         let field = UITextField()
         field.returnKeyType = .done
